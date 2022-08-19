@@ -1,7 +1,7 @@
 {
-  "name": "challenge8",
+  "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "app to create team profile generator",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/Garendemirdogen/improved-eureka#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }
