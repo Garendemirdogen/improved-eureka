@@ -108,7 +108,20 @@ const generateTeamPage = function (employeeCards) {
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
-            
+      <header>
+          <nav class="navbar" id="navbar">
+              <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">Team Profile</span>
+          </nav>
+      </header>
+      <main>
+          <div class="container">
+              <div class="row justify-content-center" id="team-cards">
+                  <!--Team Cards-->
+                  ${employeeCards}
+              </div>
+          </div>
+      </main>
+      
   </body>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
